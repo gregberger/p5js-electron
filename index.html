@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>p5 to OSC</title>
+    <!-- fetch p5js from cdn -->
+    <script id="custom-sketch" src="src/p5/sketch.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="editor" style="height: 500px; width: 500px;">
+    </div>
+    <div class="iframe-container">
+        <iframe id="sketch-preview"></iframe>
+    </div>
+</div>
+<div class="controls">
+    <p><b>Use CMD+enter (ctrl+enter) to run the code</b></p>
+</div>
+<script type="module" src="/src/renderer.js"></script>
+</body>
+</html>
