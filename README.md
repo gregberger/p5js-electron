@@ -19,13 +19,13 @@ Your system needs to have Node.js installed to develop this app.
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/gregberger/electron-osc-p5.git
+    git clone https://github.com/gregberger/p5js-electron.git
     ```
 
 2. Navigate into the project directory and install dependencies:
 
     ```bash
-    cd javascript-osc-p5
+    cd p5js-electron
     npm install
     ```
 
